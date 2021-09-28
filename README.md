@@ -1,5 +1,4 @@
-# ERC721-template
-
+# SVG Minter
 ## setup
 `npm install`
 
@@ -13,8 +12,8 @@ Add your keys to your .env file
 `npx hardhat test`
 
 ## Deploy a contract
-`HARDHAT_NETWORK=rinkeby ts-node scripts/deploy.ts NFTs/myFirstNFT.ts`
+`HARDHAT_NETWORK=rinkeby ts-node scripts/deploy.ts NFTs/SVGMinter.ts`
 
 You may set whichever network you'd like - it will default to `hardhat` which doesn't work for deploying
 
-The file after the deploy script (`NFTs/myFirstNFT.ts` in the example) is used as the parameters for the contract
+The file after the deploy script (`NFTs/SVGMinter.ts` in the example) is used as the parameters for the contract
